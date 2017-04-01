@@ -98,6 +98,8 @@ body{
     color: #216885;
     padding: 20px;
     margin-bottom: 30px;
+    border-radius: 3px;
+
 
     .text{
         font-weight: 700;
@@ -112,4 +114,61 @@ body{
     font-weight: 700;
     letter-spacing: .05em;
     color: #166b8b;
+}
+
+.item-number{
+    border-radius: 20px;
+    width: calc(100% / 3);
+    float: left;
+    background: #e6f6fc;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
+
+    &:nth-child(1){
+        .title, .description{
+            color: #216885;
+        }
+
+        .number{
+            right: -21px;
+        }
+    }
+
+    &:nth-child(2){
+        background: #89b4c4;
+        .number{
+            right: -10px;
+        }
+    }
+    &:nth-child(3){
+        background: #14526a;
+
+        .number{
+            color: rgba(#FFF, .1);
+        }
+    }
+
+    .number{
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 120px;
+        font-weight: 800;
+
+        color: rgba(#216885, .2);
+    }
+
+    .title{
+        font-size: 25px;
+        color: #FFF;
+        line-height: 30px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .description{
+        color: #fff;
+    }
 }

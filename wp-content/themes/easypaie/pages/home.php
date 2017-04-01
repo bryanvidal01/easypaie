@@ -125,4 +125,63 @@ get_header(); ?>
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="item-number">
+                <div class="number">
+                    1
+                </div>
+                <div class="text-item">
+                    <div class="title">
+                        Ouverture de votre dossier
+                    </div>
+                    <div class="description">
+                        Vous vous inscrivez en ligne
+                        en moins d'une minute !
+                    </div>
+                </div>
+            </div>
+            <div class="item-number">
+                <div class="number">
+                    2
+                </div>
+                <div class="text-item">
+                    <div class="title">
+                        Enregistrement
+                        de vos salariés
+                    </div>
+                    <div class="description">
+                        Vous nous transmettez les
+                        données essentielles de vos
+                        salariés pour l'établissement
+                        des bulletins de salaire et des
+                        déclarations sociales.
+                    </div>
+                </div>
+            </div>
+            <div class="item-number">
+                <div class="number">
+                    3
+                </div>
+                <div class="text-item">
+                    <div class="title">
+                        Validation de votre dossier
+                    </div>
+                    <div class="description">
+                        Votre gestionnaire de paie
+                        dédié vous contacte par
+                         téléphone pour faire le
+                        point sur votre dossier et
+                        paramétrer votre compte.
+                        Ce contact est aussi l'occasion
+                         de répondre à toutes vos i
+                        nterrogations...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <?php get_footer();  ?>

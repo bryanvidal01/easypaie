@@ -1,0 +1,115 @@
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+.slider-home{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#14526a+0,1b95c4+100 */
+    background: rgb(20,82,106); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(20,82,106,1) 0%, rgba(27,149,196,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(20,82,106,1) 0%,rgba(27,149,196,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(20,82,106,1) 0%,rgba(27,149,196,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14526a', endColorstr='#1b95c4',GradientType=1 ); /* IE6-9 */
+    position: relative;
+
+    .slide{
+        position: relative;
+
+        .container-slide{
+            position: relative;
+            padding: 120px 0;
+        }
+        .text-slide{
+            color: #FFF;
+            margin-left: 150px;
+            position: relative;
+            z-index: 3;
+            .title{
+                font-size: 50px;
+                line-height: 50px;
+                letter-spacing: -.03em;
+                font-weight: 700;
+            }
+
+            .description{
+                margin-top: 20px;
+                font-weight: 100;
+                font-size: 17px;
+            }
+
+            .link{
+                margin-top: 20px;
+                display: inline-block;
+            }
+        }
+
+        .img-slide{
+            position: absolute;
+            top: 0;
+            right: 120px;
+
+            img{
+                height: 390px;
+            }
+
+            &.slide-2{
+
+                top: auto;
+                bottom: -30px;
+                right: 200px;
+                img{
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+
+.bloc-intro{
+    padding: 30px;
+    margin-top: 30px;
+    .icon{
+        width: 20px;
+        display: inline-block;
+        margin-right: 10px;
+        img{
+            width: 100%;
+        }
+    }
+
+    .title{
+        display: inline-block;
+        font-size: 25px;
+        vertical-align: middle;
+        line-height: 30px;
+        font-weight: 700;
+        color: #166b8b;
+    }
+
+    .description{
+        font-size: 14px;
+        opacity: .7;
+        margin-top: 20px;
+    }
+}
+
+
+.push-contact{
+    background: #e6f6fc;
+    color: #216885;
+    padding: 20px;
+    margin-bottom: 30px;
+
+    .text{
+        font-weight: 700;
+    }
+}
+
+.button{
+    background: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 10px 25px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    color: #166b8b;
+}

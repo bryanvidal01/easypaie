@@ -10373,6 +10373,43 @@ a:hover {
   color: #fff;
 }
 
+/* line 1, ../sass/_footer.scss */
+.footer {
+  background: #313030;
+  padding: 30px;
+}
+/* line 5, ../sass/_footer.scss */
+.footer .logo {
+  width: 130px;
+}
+/* line 9, ../sass/_footer.scss */
+.footer .navigation {
+  padding-left: 0;
+}
+/* line 11, ../sass/_footer.scss */
+.footer .navigation li {
+  display: block;
+}
+/* line 14, ../sass/_footer.scss */
+.footer .navigation li a {
+  color: rgba(255, 255, 255, 0.4);
+}
+/* line 20, ../sass/_footer.scss */
+.footer .adress {
+  color: rgba(255, 255, 255, 0.4);
+}
+/* line 23, ../sass/_footer.scss */
+.footer .adress a {
+  color: #838383;
+  text-decoration: underline;
+}
+/* line 29, ../sass/_footer.scss */
+.footer .title {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
 /* line 2, ../sass/_libs.scss */
 .owl-item {
   display: block;
@@ -10904,9 +10941,16 @@ body {
 /* line 104, ../sass/_home.scss */
 .push-contact .text {
   font-weight: 700;
+  font-size: 22px;
+  margin-top: 3px;
+}
+/* line 110, ../sass/_home.scss */
+.push-contact .button {
+  margin-top: 0px;
+  display: inline-block;
 }
 
-/* line 109, ../sass/_home.scss */
+/* line 116, ../sass/_home.scss */
 .button {
   background: #fff;
   border-radius: 3px;
@@ -10915,9 +10959,21 @@ body {
   font-weight: 700;
   letter-spacing: .05em;
   color: #166b8b;
+  display: inline-block;
+}
+/* line 126, ../sass/_home.scss */
+.button.black {
+  background: #166b8b;
+  color: #FFF;
 }
 
-/* line 119, ../sass/_home.scss */
+/* line 132, ../sass/_home.scss */
+.button-anchor {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/* line 137, ../sass/_home.scss */
 .item-number {
   border-radius: 20px;
   width: calc(100% / 3);
@@ -10928,31 +10984,38 @@ body {
   overflow: hidden;
   padding: 40px;
 }
-/* line 130, ../sass/_home.scss */
-.item-number:nth-child(1) .title, .item-number:nth-child(1) .description {
+/* line 147, ../sass/_home.scss */
+.item-number .read-more {
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+/* line 155, ../sass/_home.scss */
+.item-number:nth-child(1) .title, .item-number:nth-child(1) .description, .item-number:nth-child(1) .read-more {
   color: #216885;
 }
-/* line 134, ../sass/_home.scss */
+/* line 159, ../sass/_home.scss */
 .item-number:nth-child(1) .number {
   right: -21px;
 }
-/* line 139, ../sass/_home.scss */
+/* line 164, ../sass/_home.scss */
 .item-number:nth-child(2) {
   background: #89b4c4;
 }
-/* line 141, ../sass/_home.scss */
+/* line 166, ../sass/_home.scss */
 .item-number:nth-child(2) .number {
   right: -10px;
 }
-/* line 145, ../sass/_home.scss */
+/* line 170, ../sass/_home.scss */
 .item-number:nth-child(3) {
   background: #14526a;
 }
-/* line 148, ../sass/_home.scss */
+/* line 173, ../sass/_home.scss */
 .item-number:nth-child(3) .number {
   color: rgba(255, 255, 255, 0.1);
 }
-/* line 153, ../sass/_home.scss */
+/* line 178, ../sass/_home.scss */
 .item-number .number {
   position: absolute;
   right: 0;
@@ -10961,7 +11024,7 @@ body {
   font-weight: 800;
   color: rgba(33, 104, 133, 0.2);
 }
-/* line 163, ../sass/_home.scss */
+/* line 188, ../sass/_home.scss */
 .item-number .title {
   font-size: 25px;
   color: #FFF;
@@ -10969,7 +11032,46 @@ body {
   font-weight: 600;
   margin-bottom: 10px;
 }
-/* line 171, ../sass/_home.scss */
+/* line 196, ../sass/_home.scss */
 .item-number .description {
   color: #fff;
+}
+
+/* line 202, ../sass/_home.scss */
+.container-anchor {
+  padding-top: 60px;
+}
+
+/* line 205, ../sass/_home.scss */
+.anchor-solution {
+  margin: 30px 0;
+  padding-top: 70px;
+  margin-top: -50px;
+}
+/* line 210, ../sass/_home.scss */
+.anchor-solution .title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 800;
+  color: #166b8b;
+  margin-bottom: 10px;
+}
+/* line 219, ../sass/_home.scss */
+.anchor-solution .description ul {
+  padding-left: 0;
+}
+/* line 221, ../sass/_home.scss */
+.anchor-solution .description ul li {
+  display: block;
+  margin: 5px 0;
+}
+/* line 225, ../sass/_home.scss */
+.anchor-solution .description ul li:before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  background: #15617e;
+  border-radius: 50%;
+  margin-right: 5px;
 }

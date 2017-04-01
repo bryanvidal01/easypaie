@@ -96,13 +96,20 @@ body{
 .push-contact{
     background: #e6f6fc;
     color: #216885;
-    padding: 20px;
+    padding:  20px;
     margin-bottom: 30px;
     border-radius: 3px;
 
 
     .text{
         font-weight: 700;
+        font-size: 22px;
+        margin-top: 3px;
+    }
+
+    .button{
+        margin-top: 0px;
+        display: inline-block;
     }
 }
 
@@ -114,6 +121,17 @@ body{
     font-weight: 700;
     letter-spacing: .05em;
     color: #166b8b;
+    display: inline-block;
+
+    &.black{
+        background: #166b8b;
+        color: #FFF;
+    }
+}
+
+.button-anchor{
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .item-number{
@@ -126,8 +144,15 @@ body{
     overflow: hidden;
     padding: 40px;
 
+    .read-more{
+        color: #fff;
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: underline;
+    }
+
     &:nth-child(1){
-        .title, .description{
+        .title, .description, .read-more{
             color: #216885;
         }
 
@@ -170,5 +195,43 @@ body{
 
     .description{
         color: #fff;
+    }
+}
+
+
+.container-anchor{
+    padding-top: 60px;
+}
+.anchor-solution{
+    margin: 30px 0;
+
+    padding-top: 70px;
+    margin-top: -50px;
+    .title{
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 800;
+        color: #166b8b;
+        margin-bottom: 10px;
+    }
+
+    .description{
+        ul{
+            padding-left: 0;
+            li{
+                display: block;
+                margin: 5px 0;
+
+                &:before{
+                    content: '';
+                    width: 5px;
+                    height: 5px;
+                    display: inline-block;
+                    background: #15617e;
+                    border-radius: 50%;
+                    margin-right: 5px;
+                }
+            }
+        }
     }
 }
